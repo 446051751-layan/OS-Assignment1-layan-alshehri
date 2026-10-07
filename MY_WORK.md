@@ -29,10 +29,10 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
+| **Full Name** | [layan ayedh ahshehri] |
+| **Student ID** | [446051751] |
+| **University Email** | [446051751]@std.psau.edu.sa |
+| **GitHub Username** | [446051751-layan] |
 | **Repository Link** | [Paste your repository link here] |
  
 ---
@@ -129,16 +129,25 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [october 5, 2026, 9:30 PM]
 **What I did**:
-
+set up the GitHub repository and added my student id
 **Details**:
-
+- signed in to GitHub using my university email
+- created a fork of the starter repository and changed its name
+- checked that the repository is public
+- cloned the repository to my computer and opened it using Visual Studio Code
+- changed student ID on line 150 to my actual ID (446051751)
+- committed and pushed
+ 
 **Challenges**:
+could not use git clone because Git was not installed on my computer
 
 **Solution**:
+installed Git and connected it to VS Code, which enabled the Git: Clone option
 
 **Time spent**:
+1.5 hours
 
 ---
 
