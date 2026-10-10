@@ -269,7 +269,11 @@ i stored the processes in an array and used it to print the table
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+i learned that threads help the program to do more than one task
+i learned that runnable is used with the Process class so it can run in a thread
+thread.start() starts the thread and runs the process
+thread.join() means the program waits for that thread to finish before continuing to the next step
+thread.sleep() pauses the thread for a specific amount of time so in this assignmint we used it to slow the execution so we could see the progress bar updating
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -277,7 +281,8 @@ i stored the processes in an array and used it to print the table
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+the most challenging part for me was knowing where to add each new part in the code. i hadn't used Java for a while so sometimes i understood what I wanted to add but i was not sure where it should go or why. This happened a lot in feature 2 when I was trying to decide where to increase the context switch counter. feature 3 was also difficult because I had to figure out exactly where to record the arrival and completion times and how the calculations had to be done in both run() and runToCompletion() so the last process would also be calculated correctly.
+i put something in the wrong place and had to go back and understand the code flow again. after working through these parts i became better at understanding where each change belongs and how it affects the rest of the program
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -285,7 +290,7 @@ i stored the processes in an array and used it to print the table
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+i tried to solve each problem one step at a time instead of changing many things at once. When i did not understand something i went back and read the code around that part again. i also tested the program after every small change to see if the result was correct. if the output was wrong i used it to understand which part of the code needed to be changed. i also checked the assignment instructions again when i wasn't sure about a requirement. this helped me understand the code better 
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
