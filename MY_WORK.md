@@ -132,6 +132,7 @@
 ### Entry 1 - [october 5, 2026, 9:30 PM]
 **What I did**:
 set up the GitHub repository and added my student id
+
 **Details**:
 - signed in to GitHub using my university email
 - created a fork of the starter repository and changed its name
@@ -151,42 +152,64 @@ installed Git and connected it to VS Code, which enabled the Git: Clone option
 
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [october 7, 2026, 7:30 PM]
 **What I did**:
+added a priority to each process ( feature 1)
 
 **Details**:
-
+- added a priority variable in process class
+- make a random number from 1-10
+- displayed the priority when the process entered the ready queue
+  
 **Challenges**:
+i was not sure how to generate a random number from 1-10
 
 **Solution**:
+i used Math.random() method and make sure that the value stays between 1 and 10
 
 **Time spent**:
+2.5 hours
 
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [october 8, 2026, 10:00 PM]
 **What I did**:
+added a counter for context switches ( feature 2)
 
 **Details**:
-
+- added static counter variable
+- increased the counter when a process started running
+- Print the total number of context switches at the end of the program
+  
 **Challenges**:
+i was not sure where I should increase the counter
 
 **Solution**:
+the process starts running at currentThread.start() so i increased the counter after it
 
 **Time spent**:
+2 hours
 
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 4 - [october 9, 2026, 10:30 PM]
 **What I did**:
+added waiting time tracking for each process ( feature 3)
 
 **Details**:
-
+- added 4 variable in process class (arrival time, completion time, turnaround time, waiting time)
+- used System.currentTimeMillis() to record the time
+- calculated TAT = CT - AT and WT = TAT - BT
+- print a table to display the process information at the end of the program
+  
 **Challenges**:
+i was not sure how to store every process information after the ready queue became empty
 
 **Solution**:
+i stored the processes in an array and used it to print the table
 
 **Time spent**:
+3.5 hours
 
 ---
 
